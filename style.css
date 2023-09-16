@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: url("https://images.pexels.com/photos/457881/pexels-photo-457881.jpeg")
+    no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+  position: relative;
+  font-size: 9.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  width: 313px;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 5px 5px 34px rgba(0, 0, 0, 0.4);
+  transition: 0.4s;
+}
+
+.box:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.box p {
+  color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  transition: 0.9s;
+}
+
+.box p:hover {
+  color: rgba(255, 255, 255, 0.6);
+  scale: 102%;
+}
